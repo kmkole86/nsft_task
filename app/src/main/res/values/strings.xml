@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">nsft_zadatak</string>
+    <string name="favourite">Favourite</string>
+    <string name="repositories">Repositories</string>
+    <string name="contributors">Contributors</string>
+    <string name="error_message">Error click retry</string>
+    <string name="loading">Loading</string>
+</resources>
