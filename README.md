@@ -29,8 +29,8 @@ favourite status deo samog podatka koji dolazi sa bekenda. Svaki nacin ima svoje
 FAVOURITE LIST: Observovanje kesiranih podataka "Cache LEFT JOIN FavouriteIndex".
 
 Zbog ogranicenog vremena i drugih obaveza, ostalo je dosta prostora za dalju razradu zadatka, 
-uglavnom fizikalija koje bi se sada nadogradjivale na osnovu, npr pokrivanje ostalih caseva, 
+uglavnom fizikalija koje bi se sada nadogradjivale na osnovu, npr pokrivanje ostalih caseva, errora, 
 dalje ulepsavanje i razrada UI-a koji je inicialno izradjen samo za cilj pokrivanja funkcionalnosti aplikacije
-kao i testova, dodacu primere naknadno.
+kao i testova, koje mogu da dodam naknadno.
 
 
