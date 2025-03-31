@@ -7,6 +7,7 @@ Pretpostavka da su GitRepository i GitRepositoryDetails dva razlicita entiteta.
 Feature:
 
 == REPOSITORY LIST: Cuvanje podataka u lokalu, ekran kombinuje tri izvora podataka.
+
 ========= 1) status Fetch operacije (loading, success, error), skida podatke sa api-a i snima ih u bazu
 
 ========= 2) stream iz baze podataka. U bazi se kesiraju repositoriji, rezultujuci stream je "RepositoryCache INNER JOIN RepositoryListIndex LEFT JOIN FavouriteRepoIndex"
@@ -14,6 +15,7 @@ Feature:
 ========= 3) search query. U produkciji search bi najbolje bilo da bude implementiran kao poseban ekran, zbog api-a, paginacije itd. Ovo je pokazni zadatak pa sam ga odradio u istom ekranu. Dalje moze da se razradi sa dva state-a SEARCH i REGULAR pa bi u tom slucaju search mogao da radi paginaciju i skida nove podatke sa neta itd.
 
 == REPOSITORY DETAILS: Dva strima podataka.
+
 ========= 1) REPO DETAILS kombinuje Fetch operaciju (loading, success, error) koja skida details sa neta i snima u bazu, drugi koji observuje "RepoDetailsCacheById LEFT JOIN FavouriteRepoIndex"
 
 ========= 2) CONTRIBUTORS kombinuje Fetch operaciju (loading, success, error) koja skida kontributore sa neta i snima ih u bazu, i drugi koji observuje "ContributorsCache INNER JOIN RepositoryCacheByIdContributors LEFT JOIN FavouriteContributorsIndex".
